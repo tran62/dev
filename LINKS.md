@@ -1,0 +1,22 @@
+# List of links
+---
+. [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code)
+. [Hanoi towers](https://rosettacode.org/wiki/Towers_of_Hanoi)
+. [Fibonaci numbers]()
+. [Knapsack algorithm]()
+. [Transportation algorithm]()
+. [Dantzig simplex algorithm]()
+. [8 queens]() /* backtracking, dancing links*/
+. [Sudoku]() 
+. [Eratostene sieve]() (prime numbers)
+. [Dinner of philosophers]()
+. [Cellular automata]()
+. [Roman numbers]()
+. [Chinese remainders theorem]()
+. [Fast Foutier transform]()
+. [Conway game of life]()
+. [Eastern date calculus]()
+. [Problem of the Knight]()
+. [Benford Law]()
+. [Segment tracing by Xiaolin Wu]()
+. [Hamming, Levenshtein distances]()

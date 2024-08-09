@@ -1,6 +1,8 @@
 -- Programme en Haskell pour lister
 -- les triplets pythagoriciens primitifs (a,b,c)
--- tels que a^2 + b^2 = c^2 avec c = MaxNum (100 par défaut)
+-- tels que a^2 + b^2 = c^2 avec c = maxNum (100 par défaut)
+-- Exécution : ghci triplets_pythagoriciens.hs
+-- *Main>main 
 pgcd :: Int -> Int -> Int 
 -- PGCD de a et b p
 pgcd 0 k = k
@@ -23,5 +25,5 @@ triplets =  [(a,b,c) |
 
 main :: IO()
 main = do
-  print ("Liste des triplets pythagoriciens primitifs (a,b,c) avec c < ",maxNum, triplets)
+  print ("Liste des triplets pythagoriciens primitifs (a,b,c) tq $a^2+b^2=c^2$ avec c < ",maxNum,"...=>...", triplets)
   print ("Nb triplets : ", length triplets)

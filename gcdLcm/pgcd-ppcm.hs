@@ -22,8 +22,6 @@ module Main where
     putStr "Entrer nb b:"
     number <- getLine
     let b = read number
-    -- let a = n1
-    -- let b = n2
     putStrLn "a,b, pgcd(a,b), ppcm(a,b)"
     print (a,b, "pgcd->", pgcd a b, "ppcm->", ppcm a b)
 
