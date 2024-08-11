@@ -12,7 +12,7 @@ module Main where
   ppcm :: (Integral a) => a -> a -> a
   ppcm _ 0 =  0
   ppcm 0 _ =  0
-  ppcm x y =  abs ((x `quot` (pgcd x y)) * y)
+  ppcm x y =  abs ((x `quot` (gcd x y)) * y)
 
   main :: IO()
   main = do
@@ -23,7 +23,8 @@ module Main where
     number <- getLine
     let b = read number
     putStrLn "a,b, pgcd(a,b), ppcm(a,b)"
-    print (a,b, "pgcd->", pgcd a b, "ppcm->", ppcm a b)
+    print (a,b, "gcDivisor->", pgcd a b, "lcMultiple
+    ->", ppcm a b)
 
 
 
