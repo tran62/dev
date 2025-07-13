@@ -3,5 +3,5 @@ fiblength = 21
 for x in range(1,fiblength-1):
 	xcount = fibseq[x-1] + fibseq[x]
 	fibseq.append(xcount)
-print(xcount)
-/* output : 10946 */
+print("count fib(21):",xcount)
+# output : 10946 

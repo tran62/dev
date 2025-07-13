@@ -44,6 +44,7 @@ def gcd_bin(u, v):
 
 
 #Tests
+print("*** Tests gcd(), gcd_iter(), gcd_bin() ***")
 #>>> gcd(0,0)
 print("gcd(0,0): ",gcd(0,0));
 #0
@@ -52,10 +53,11 @@ print("gcd(0,0): ",gcd(0,0));
 print("gcd(0,10): ",gcd(0,10));
 #>>> gcd(9, 6) == gcd(6, 9) == gcd(-6, 9) == gcd(9, -6) == gcd(6, -9) == gcd(-9, 6) == 3
 print("gcd(9,6): ",gcd(9,6));
+print("gcd_iter(9,6): ",gcd_iter(6,9));
 #True
 #>>> gcd(8, 45) == gcd(45, 8) == gcd(-45, 8) == gcd(8, -45) == gcd(-8, 45) == gcd(45, -8) == 1
 print("gcd_iter(8,45): ",gcd_iter(8,45));
 #True
 #>>> gcd(40902, 24140) # check Knuth :)
-print("gcd_Knuth(40902, 24140): ",gcd_bin(40902, 24140));
+print("Knuth gcd_bin(40902, 24140): ",gcd_bin(40902, 24140));
 #34
